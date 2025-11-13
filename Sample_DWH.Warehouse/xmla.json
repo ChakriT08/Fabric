@@ -1,0 +1,422 @@
+{
+  "name": "{{Dataset_Name}}",
+  "compatibilityLevel": 1604,
+  "model": {
+    "name": "{{Dataset_Name}}",
+    "culture": "en-US",
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Audit_stage_before_logic",
+        "sourceLineageTag": "[dbo].[Audit_stage_before_logic]",
+        "columns": [
+          {
+            "name": "CLIENT",
+            "dataType": "string",
+            "sourceColumn": "CLIENT",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "CLIENT",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "COMMUNITY",
+            "dataType": "string",
+            "sourceColumn": "COMMUNITY",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "COMMUNITY",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "state",
+            "dataType": "string",
+            "sourceColumn": "state",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "state",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "contract date",
+            "dataType": "string",
+            "sourceColumn": "contract date",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "contract date",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ready to audit",
+            "dataType": "string",
+            "sourceColumn": "ready to audit",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "ready to audit",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "audit complete",
+            "dataType": "string",
+            "sourceColumn": "audit complete",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "audit complete",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "final report date",
+            "dataType": "string",
+            "sourceColumn": "final report date",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "final report date",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "analyst",
+            "dataType": "string",
+            "sourceColumn": "analyst",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "analyst",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "analysis $$$",
+            "dataType": "string",
+            "sourceColumn": "analysis $$$",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "analysis $$$",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "final report $$$",
+            "dataType": "string",
+            "sourceColumn": "final report $$$",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "final report $$$",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "approved $$$",
+            "dataType": "string",
+            "sourceColumn": "approved $$$",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "approved $$$",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "implemented",
+            "dataType": "string",
+            "sourceColumn": "implemented",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "implemented",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "project info sheet",
+            "dataType": "string",
+            "sourceColumn": "project info sheet",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "project info sheet",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "vendor",
+            "dataType": "string",
+            "sourceColumn": "vendor",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "vendor",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "vendor invoices",
+            "dataType": "string",
+            "sourceColumn": "vendor invoices",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "vendor invoices",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "utility addendum",
+            "dataType": "string",
+            "sourceColumn": "utility addendum",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "utility addendum",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "tax bill",
+            "dataType": "string",
+            "sourceColumn": "tax bill",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "tax bill",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "water",
+            "dataType": "string",
+            "sourceColumn": "water",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "water",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "sewer",
+            "dataType": "string",
+            "sourceColumn": "sewer",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "sewer",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "stormwater",
+            "dataType": "string",
+            "sourceColumn": "stormwater",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "stormwater",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "trash",
+            "dataType": "string",
+            "sourceColumn": "trash",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "trash",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "valet trash",
+            "dataType": "string",
+            "sourceColumn": "valet trash",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "valet trash",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "pest control",
+            "dataType": "string",
+            "sourceColumn": "pest control",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "pest control",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "gas (house meters)",
+            "dataType": "string",
+            "sourceColumn": "gas (house meters)",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "gas (house meters)",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "electric (house meters)",
+            "dataType": "string",
+            "sourceColumn": "electric (house meters)",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "electric (house meters)",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "notes",
+            "dataType": "string",
+            "sourceColumn": "notes",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "notes",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "Audit_stage_before_logic",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "kind": "m",
+        "expression": "let\n    database = {{TDS_Endpoint}}\nin\n    database\n"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "SourceLineageTagType",
+        "value": "DatabaseFullyQualifiedName"
+      }
+    ]
+  }
+}
